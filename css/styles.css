@@ -1,0 +1,164 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: rgba(33, 150, 243, 1);
+  --title-color: rgba(33, 33, 33, 1);
+  --text-color: rgba(117, 117, 117, 1);
+}
+
+body {
+  font-family: var(--main-font);
+}
+.link {
+  text-decoration: none;
+  color: var(--title-color);
+}
+.list {
+  list-style: none;
+}
+.adress {
+  font-style: normal;
+}
+
+/*Навигация*/
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--accent-color);
+}
+.logo-header {
+  color: var(--title-color);
+}
+.navigation-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.navigation-list .current {
+  color: var(--accent-color);
+}
+/*Телефон и mail*/
+.kontakt-link {
+  color: var(--text-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+/*Hero*/
+
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  /* color: rgba(255, 255, 255, 1); */
+}
+.button-order {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+
+body .button-order:hover,
+body .button-order:focus,
+body .button-order:active {
+  background-color: #188ce8;
+}
+
+/*Advantages*/
+.benefits-list-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.benefits {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+/*Occupations*/
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.members {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/*Portfolio*/
+.button-filter {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+body .button-filter:hover,
+body .button-filter:focus,
+body .button-filter:active {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.title-examples {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.tipe-examples {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/*Footer*/
+/*.logo-footer {
+  color: white;
+}*/
+
+.kontakt-link:hover,
+.kontakt-link:focus {
+  color: var(--accent-color);
+}
+address .link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: #ffffff;*/
+}
+/*address .kontakt-link {
+  color: rgba(255, 255, 255, 0.6);
+}*/
