@@ -9,6 +9,15 @@
 body {
   font-family: var(--main-font);
 }
+.page-header {
+  background-color: #ffffff;
+}
+main {
+  background-color: #ffffff;
+}
+.hero {
+  background-color: #2f303a;
+}
 .link {
   text-decoration: none;
   color: var(--title-color);
@@ -62,7 +71,7 @@ h1 {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  /* color: rgba(255, 255, 255, 1); */
+  color: rgba(255, 255, 255, 1);
 }
 .button-order {
   font-weight: bold;
@@ -82,9 +91,10 @@ body .button-order:active {
 /*Advantages*/
 .benefits-list-title {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .benefits {
   font-size: 14px;
@@ -95,6 +105,9 @@ body .button-order:active {
 }
 
 /*Occupations*/
+.team {
+  background-color: #f5f4fa;
+}
 h2 {
   font-size: 36px;
   font-weight: 700;
@@ -145,9 +158,12 @@ body .button-filter:active {
   color: var(--text-color);
 }
 /*Footer*/
-/*.logo-footer {
+.page-footer {
+  background-color: #2f303a;
+}
+.logo-footer {
   color: white;
-}*/
+}
 
 .kontakt-link:hover,
 .kontakt-link:focus {
@@ -157,7 +173,7 @@ address .link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 /*address .kontakt-link {
   color: rgba(255, 255, 255, 0.6);
